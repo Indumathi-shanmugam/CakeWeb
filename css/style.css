@@ -240,25 +240,6 @@
       margin: 5px 0;
     }
   }
-  @media screen and (max-width: 576px){
-    footer{
-      width:350px;
-      font-size: 12px;
-    }
-    .left{
-      padding: 0;
-    }
-    .center .content .fas{
-      font-size: 12px;
-    }
-    .center .content .text{
-      font-size: 12px;
-    }
-    .bottom center{
-      width:350px;
-      font-size: 12px;
-    }
-  }
 /*Footer style End*/  
 
 /*banner style starts*/
@@ -324,17 +305,7 @@ h1{
   }
 
 }
-@media screen and (max-width: 576px){
-  .abtimg img{
-    width:200px;
-    height:200px;
-    padding:0px;
-  } 
-  .abtcnt p{
-    width:200px;
-    font-size: 12px;
-  }
-}
+
 /* About style End */
 
 
@@ -407,8 +378,7 @@ h1{
 }
 @media screen and (max-width: 576px){
   .products{
-    display: block;
-    height:auto;
+    width: 500px;
   }
 }
 /*End of Product Style*/
