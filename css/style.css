@@ -262,11 +262,14 @@ h1{
   
 }
 .abtimg{
+  display: flex;
   flex: 50%;
+ justify-content: center;
+ 
 }
 .abtimg img{
   width:418px;
-  height:200px;
+  height:220px;
   padding-left:120px;
 }
 .abtcnt{
@@ -312,7 +315,6 @@ h1{
 /* Product Style Starts */
 
 .productsection{
-  height:400px;
  position: relative;
 
 }
@@ -377,8 +379,17 @@ h1{
   border-radius: 20px;
 }
 @media screen and (max-width: 576px){
-  .products{
-    width: 500px;
-  }
+ .products{
+  display: block;
+  height:100%;
+  width:100%;
+ }
+ .pro-item{
+   
+   display: inline-block;
+  left:30px;
+   
+ }
+ 
 }
 /*End of Product Style*/
