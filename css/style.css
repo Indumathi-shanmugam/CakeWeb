@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Palatino Linotype', sans-serif, Bold;
+  
 }
+
 /* custom scroll bar */
 /*Nav Bar style starts*/
 ::-webkit-scrollbar {
@@ -30,6 +32,7 @@
   width: 100%;
   padding: 10px 0;
   transition: all 0.3s ease;
+  background-color: #fff;
 }
 .navbar.sticky{
   padding: 10px 0;
@@ -129,7 +132,7 @@
 /*Footer Style Starts*/
 
   footer{
-    
+    position: relative;
     bottom: 0px;
     width: 100%;
     background: #007553;
@@ -220,7 +223,7 @@
     color: #656565;
   }
   .bottom center a{
-    color: #f12020;
+    color: #EC197A;
     text-decoration: none;
   }
   .bottom center a:hover{
@@ -457,3 +460,72 @@ h1{
     flex-direction: column;
   }
 }
+/*End of Cake item style*/
+
+/*Start Testimonial Style*/
+
+/*End Testimonial Style*/
+
+
+/*End of Home Page Style*/
+
+
+
+
+
+/*Start of Product Page Style*/
+
+/*Start of pro-banner style*/
+.pro-banner{
+  width:100%;
+  display:flex;
+}
+.banner-img{
+  width:100%;
+  height:auto;
+}
+/*End of pro-banner style*/
+
+/*Start of product category style*/
+.categorysection{
+  background: #fff;
+  width:100%;
+  height:auto;
+  display: block;
+  
+}
+.category{
+  background-color: #fff;
+  width:60%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height:100%;
+ 
+}
+.select-category{
+  flex:40%;
+  margin:20px;
+  background-color: #EC197A;
+  width:80%;
+  height:100px;
+  width:100px;
+  text-align: center;
+  border-radius: 25px;
+}
+.select-category p{
+  padding:20px;
+  text-align: center;
+}
+.select-category img{
+  width:88px;
+  height:88px;
+}
+input[type='radio']{
+ top:-40px;
+}
+
+/*End of product category style*/
+
+/*End of Product Page Style*/
